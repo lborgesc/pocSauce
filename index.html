@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sauce Tatuaria</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,363 +17,121 @@
         <h4>Ficha de Anamnese</h4>
         <h3>Ateliê Artístico de Tattoo</h3>
     </header>
+    <nav class="menuSauce box-shadow js-menu">
+        <a href="#weAre">Quem Somos</a>
+        <a href="#artists">Artistas</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <main>
+        <div class="container">
+            <section class="weAre" id="weAre">
+                <div class="carrossel">
+                    <div class="img frist"></div>
+                    <div class="img second"></div>
+                    <div class="img third"></div>
+                    <div class="img fourth"></div>
+                </div>
+                <div class="aboutUs">
+                    <h1>Quem Somos</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quas adipisci veniam. Pariatur autem, recusandae quidem fuga porro asperiores praesentium ratione accusamus nesciunt iusto laudantium dicta dolorem quia eveniet. Necessitatibus!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, mollitia ipsum maxime incidunt porro repellat sint dolor culpa commodi error. Eum est eius itaque ipsum ad dolorum tempora aliquid sunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione saepe mollitia, aut itaque pariatur qui maiores cum adipisci illo doloremque consequatur, dolor, temporibus velit! Delectus esse odit laboriosam fuga?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quas adipisci veniam. Pariatur autem, recusandae quidem fuga porro asperiores praesentium ratione accusamus nesciunt iusto laudantium dicta dolorem quia eveniet. Necessitatibus!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, mollitia ipsum maxime incidunt porro repellat sint dolor culpa commodi error. Eum est eius itaque ipsum ad dolorum tempora aliquid sunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione saepe mollitia, aut itaque pariatur qui maiores cum adipisci illo doloremque consequatur, dolor, temporibus velit! Delectus esse odit laboriosam fuga?
+                        </p>
+                </div>
+            </section>
 
-    <section id="fristForm">
-        <form class="box-shadow" action="">
-            <div class="form-group">
-                <div class="name">
-                    <label for="">Nome</label>
-                    <input id="labelName" type="text" placeholder="Nome completo">
+            <section class="artists" id="artists">
+                <h1>Artistas</h1>
+
+                <div class="danilo">
+                    <h4>Danilo Silva | Tatuador</h4>
+                    <div class="containerDanilo">
+                        <div class="img imgDanilo"></div>
+                        <div class="aboutDanilo">
+                            <h6>Sobre</h6>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque nisi, sint, non corrupti ipsa adipisci vero quo officia, a deserunt dolorum commodi? Nulla, voluptas itaque? Non culpa eligendi vero rerum?</p>
+    
+                            <h6>Especialidade</h6>
+                            <ul>
+                                <li>Realismo</li>
+                                <li>Fine Line</li>
+                            </ul>
+                        </div>  
+                    </div>              
                 </div>
-                <div class="date">
-                    <label for="">Data de nascimento</label>
-                    <input id="labelDate" type="date">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="cpf">
-                    <label for="">CPF</label>
-                    <input id="labelCpf" type="text" placeholder="xxx.xxx.xxx-xx">
-                </div>
-                <div class="rg">
-                    <label for="">RG</label>
-                    <input id="labelRg" type="text" placeholder="xx.xxx.xxx-x">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="phone">
-                    <label for="">Telefone</label>
-                    <input id="labelPhone" type="text" placeholder="Preferência WhatsApp">
-                </div>
-                <div class="form-checkbox">
-                    <div class="sex checkbox">
-                        <label for="">Sexo</label>
-                        <div class="sexType lastInput">
-                            <div class="manWoman">
-                                <div class="man">
-                                    <input type="checkbox">
-                                    <label for="">Masculino</label>
-                                </div>
-                                <div class="woman">
-                                    <input type="checkbox">
-                                    <label for="">Feminino</label>
-                                </div>
-                            </div>
-                            <div class="sexOuther">
-                                <div class="outher">
-                                    <input type="checkbox">
-                                    <label for="">Outros</label>
-                                </div>
-                            </div>
-                        </div>     
-                    </div>
-                    
-                    <div class="bloodType checkbox">
-                        <label for="">Tipo sanguíneo</label>
-                            <div class="blood lastInput">
-                                <div class="type1">   
-                                    <div class="typeA">
-                                        <input type="checkbox">
-                                        <label for="">A</label>
-                                    </div>
-                                    <div class="typeB">
-                                        <input type="checkbox">
-                                        <label for="">B</label>
-                                    </div>
-                                </div>
-                                <div class="type2">
-                                    <div class="typeAB">
-                                        <input type="checkbox">
-                                        <label for="">AB</label>
-                                    </div>
-                                    <div class="typeO">
-                                        <input type="checkbox">
-                                        <label for="">O</label>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>      
-            </div>
-            <div class="form-group">
-                <div class="height">
-                    <label for="">Altura</label>
-                    <input type="text" placeholder="Seu peso">
-                </div>
-                <div class="weight">
-                    <label for="">Peso</label>
-                    <input type="text" placeholder="Sua altura">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="Address">
-                    <label for="">Endereço</label>
-                    <input type="text" placeholder="Seu peso">
-                </div>
-                <div class="cityCep">
-                    <div class="city">
-                        <label for="">Cidade</label>
-                        <input type="text" placeholder="Digite sua Cidade">
-                    </div>
-                    <div class="cep">
-                        <label for="">CEP</label>
-                        <input type="text" placeholder="xxxxx-xxx">
+                <div class="kassia">
+                    <h4>Kássia Labadessa | Tatuadora</h4>
+                    <div class="containerKassia">
+                        <div class="img imgKassia"></div>
+                        <div class="aboutKassia">
+                            <h6>Sobre</h6>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque nisi, sint, non corrupti ipsa adipisci vero quo officia, a deserunt dolorum commodi? Nulla, voluptas itaque? Non culpa eligendi vero rerum?</p>
+    
+                            <h6>Especialidade</h6>
+                            <ul>
+                                <li>Realismo</li>
+                                <li>Fine Line</li>
+                            </ul>
+                        </div>  
                     </div>
                 </div>
-            </div>
-            <div class="form-group">   
-                <div class="allergy checkbox">
-                    <label for="">Sofre alguma alergia?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="which">
-                    <label for="">Se sim, qual alergia?</label>
-                    <input type="text" placeholder="Informe a alergia?">
-                </div>
-            </div>
-            <div class="form-group">   
-                <div class="surgery checkbox">
-                    <label for="">Já fez cirurgia?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="which">
-                    <label for="">Se sim, qual cirurgia?</label>
-                    <input type="text" placeholder="Informe a cirurgia?">
-                </div>
-            </div>
-            <div class="form-group">   
-                <div class="medicine checkbox">
-                    <label for="">Está fazendo uso de medicamento?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="which">
-                    <label for="">Se sim, qual medicamento?</label>
-                    <input type="text" placeholder="Informe o medicamento?">
-                </div>
-            </div>
-        </form>
-    </section>
-    <section class="active">
-        <form class="box-shadow formCheck" action="">
-            <div class="form-group">
-                <div class="medicine checkbox">
-                    <label for="">Já fez/ faz uso de drogas?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">Possui algum problema de pele/ cicatrização?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">É portador de Hepatite?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="medicine checkbox">
-                    <label for="">Possui alguma DST?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">É portador de Hepatite?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">Tem câncer ou algum caso na família?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="medicine checkbox">
-                    <label for="">É lactante?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">Possuí epilepsia?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">Possui diabetes?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="medicine checkbox">
-                    <label for="">Possui problema cardíaco ou respiratório?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">É gestante?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-                <div class="medicine checkbox">
-                    <label for="">Fez uso anestésico?</label>
-                    <div class="yes">
-                        <input type="checkbox">
-                        <label for="">Sim</label>
-                    </div>
-                    <div class="not lastInput">
-                        <input type="checkbox">
-                        <label for="">Não</label>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </section>
-    <section class="active">
-        <form class="box-shadow" action="">
-            <div class="form-group">
-                <div class="authorizations checkbox">
-                    <label for="">Divulgação da arte nas mídias sociais </label>
-                    <div class="socialMidia lastInput">
-                        <input type="checkbox">
-                        <p >Autorizo a divulgação da minha tatuagem, nas mídias sociais da Sauce Tatuaria</p>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </section>
-    <section class="active">
-        <form class="box-shadow " action="">
-            <div class="form-group">
-                <div class="authorizations checkbox">
-                    <label for="">O prazo para o retoque da tatuagem (caso seja necessário), é de 45 dias. Será cobrado 30% do valor total da arte. Após esse período, será necessário fazer um novo orçamento. Declaro as informações verídicas, e estou ciente dos riscos, autorizo o artista a realizar o trabalho.</label>
-                    <div class="retouch lastInput ">
-                        <input type="checkbox">
-                        <p>Estou ciente.</p>
-                    </div>
-                </div>
-        </form>
-    </section>
-    <section class="endForm">
-        <div class="button-send">
-            <div class="buttonForm">
-                <a href="#" id='btnNext' class="send">Próxima página</a>
-                <a href="#" id='btnPrevious' class="send active">Voltar</a>
-                <a href="#" id='btnSend' class="send active">Enviar formulário</a>
-            </div>
-            <p class="page">1/2</p>
-            <a href="#" id="btnClean" class="clear">Limpar formulário</a>
+            </section>
+            <section class="FAQ" id="FAQ">
+                <h1>FAQ</h1>
+                <dl class="faq-list js-accordion">
+                    <dt>Posso expor o local ao sol?</dt>
+                    <dd>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit dignissimos similique debitis repellat. Sint laboriosam laudantium libero illo dignissimos pariatur recusandae nesciunt quas excepturi accusantium, ea tenetur dolorum cumque.
+                    </dd>
+                    <dt>Posso expor o local ao sol?</dt>
+                    <dd>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit dignissimos similique debitis repellat. Sint laboriosam laudantium libero illo dignissimos pariatur recusandae nesciunt quas excepturi accusantium, ea tenetur dolorum cumque.
+                    </dd>
+                    <dt>Posso expor o local ao sol?</dt>
+                    <dd>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit dignissimos similique debitis repellat. Sint laboriosam laudantium libero illo dignissimos pariatur recusandae nesciunt quas excepturi accusantium, ea tenetur dolorum cumque.
+                    </dd>
+                    <dt>Posso expor o local ao sol?</dt>
+                    <dd>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit dignissimos similique debitis repellat. Sint laboriosam laudantium libero illo dignissimos pariatur recusandae nesciunt quas excepturi accusantium, ea tenetur dolorum cumque.
+                    </dd>
+                    <dt>Posso expor o local ao sol?</dt>
+                    <dd>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit dignissimos similique debitis repellat. Sint laboriosam laudantium libero illo dignissimos pariatur recusandae nesciunt quas excepturi accusantium, ea tenetur dolorum cumque.
+                    </dd>
+
+                </dl>
+            </section>
         </div>
-        
-    </section>
-    <footer>
+
+       
+
+    </main>
+   
+    <footer id="contact">
         <div class="footerSite">
             <div class="contact">
-                <h4>DADOS DE CONTATO</h2>
+                <h4>DADOS DE CONTATO</h4>
                 <p>saucetatuaria@outlook.com</p>
-                <p>11 98719-8142</p>
-                <p>De Seg. à Dom. das 11h às 21h</p>
+                <p>(11) 98719-8142</p>
+                <p>Cohab 5, Carapicuíba - SP</p>
+                <p data-hours='11,21'>De Seg. à Dom. das 11h às 21h</p>
             </div>  
             <div class="socialNetworks">
-                <h4>REDES SOCIAIS</h2>
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">WhatsApp</a>
+                <h4>REDES SOCIAIS</h4>
+                <a href="https://www.instagram.com/saucetatuaria/">Instagram</a>
+                <a href="https://www.facebook.com/saucetatuaria">Facebook</a>
+                <a href="https://api.whatsapp.com/send?phone=5511987198142">WhatsApp</a>
             </div>
         </div>
         <div class="sauceFooter">SAUCE © 2019. - Arte é ser você mesmo e ver beleza nisso!</div>
     </footer>
-
-
-    <script src="./test.js"></script>
+    
+    <script type="module" src="./js/script.js"></script>
 </body>
 </html>

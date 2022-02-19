@@ -1,0 +1,73 @@
+.FAQ{
+    margin: 0 0 80px 40px;
+}
+
+.FAQ h1::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 8px;
+    margin-right: 20px;
+    background: var(--sauce-color);
+} 
+
+.FAQ h1{
+    display: flex;
+    align-items: center;
+    margin: 80px 0 80px 0;
+    font-size: 2.5rem;
+}
+
+.faq-list{
+    margin-left: 40px;
+}
+
+.faq-list dt {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.faq-list dt::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    background: black;
+}
+
+.faq-list dd {
+    margin: 0 0 40px 20px;
+}
+
+.js-accordion dd{
+    display: none;
+}
+
+
+.js-accordion dt::after{
+    content: "⬎";
+    margin-left: 10px;
+}
+
+.js-accordion dt.active::after{
+    content: "⬏";
+}
+
+.js-accordion dd.active{
+    display: block;
+    animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+    to{
+        opacity: 1;
+        max-height: 200px;
+    }
+}

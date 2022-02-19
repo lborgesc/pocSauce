@@ -1,0 +1,102 @@
+.artists{
+    margin-left: 40px;
+}
+
+.artists h1::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 8px;
+    margin-right: 20px;
+    background: var(--sauce-color);
+} 
+
+.artists h1{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 80px 0;
+    font-size: 2.5rem;
+}
+
+.artists h4{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+.artists h6 {
+    font-size: 1.0rem;
+    margin: 20px 0 20px 60px;
+}
+
+.danilo{
+    margin: 0 0 80px 40px;
+}
+
+.kassia{
+    margin-left: 40px;
+    
+}
+.artists h4{
+    font-size: 1.3rem;
+}
+.artists h6 {
+    font-size: 1.0rem;
+    display: flex;
+    align-items: center;
+}
+
+.aboutDanilo{
+    margin-left: 40px;
+}
+
+.aboutKassia{
+    margin-left: 40px;
+}
+
+.artists p {
+    margin-left: 80px;
+    text-align: justify;
+}
+
+.artists li {
+    margin-left: 95px;
+}
+
+.artists .img{
+    width: 200px;
+}
+.containerDanilo{
+    display: flex;
+}
+
+.containerKassia{
+    display: flex;
+}
+
+
+.imgDanilo{
+    background-image: url("../img/245320129_465897214633741_6012405474161370415_n.jpg");
+    background-size: cover;
+    background-position-x: 290px;
+}
+
+.imgKassia{
+    background-image: url("../img/245517275_634710914563387_6594177814665219146_n.jpg");
+    background-size: cover;
+    background-position-x: 260px;
+}
+
+.aboutDanilo{
+    width: 660px;
+}
+.aboutKassia{
+    width: 660px;
+}
+
+.artists h6::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    background: black;
+}

@@ -1,0 +1,22 @@
+.menuSauce { 
+    width: 69%;
+    border-radius: 5px;
+    background: var(--sauce-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center !important;
+    padding-right: 10px;
+    position: absolute;
+    left: 31%;
+}
+
+.menuSauce a{
+    color: black;
+    border: none;
+    margin-left: 30px;
+}
+
+.menuSauce a:hover{
+   background: black;
+   color: white;
+}
